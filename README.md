@@ -1,2 +1,4 @@
 # Local-Earthquake-activity
-EXAMPLE: App to show earthquake activity around a given location
+
+
+An EXAMPLE for a HCI 584 app that shows earthquake activity around a given location.
