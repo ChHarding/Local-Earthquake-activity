@@ -1,0 +1,1 @@
+# Example of a light planning spec for my sketch
