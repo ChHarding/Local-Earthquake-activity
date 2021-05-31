@@ -1,0 +1,21 @@
+,time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+0,1994-01-17T12:30:55.390Z,34.213,-118.537,18.202,6.7,mw,0.0,29.7,,0.31,ci,ci3144585,2020-04-17T20:59:28.389Z,"1km NNW of Reseda, CA",earthquake,,0.40299999999999997,,0.0,reviewed,ci,ci
+1,1971-02-09T14:00:41.920Z,34.416,-118.37,8.95,6.6,mw,0.0,123.4,,0.249,ci,ci3347678,2020-04-17T20:59:53.263Z,"10km SSW of Agua Dulce, CA",earthquake,,6.837000000000001,,0.0,reviewed,ci,ci
+2,1933-03-11T01:54:10.660Z,33.6308333,-117.9995,6.0,6.4,mw,7.0,161.0,0.5357,0.23,ci,ci3359741,2020-04-30T14:24:26.641Z,"Long Beach, California Earthquake",earthquake,1.41,31.61,,0.0,reviewed,ci,ci
+3,1987-10-01T14:42:20.020Z,34.061,-118.079,8.881,5.9,mw,0.0,44.4,,0.17800000000000002,ci,ci731691,2020-04-17T21:00:08.112Z,"2km SSW of Rosemead, CA",earthquake,,0.023,,0.0,reviewed,ci,ci
+4,1994-01-17T12:31:58.120Z,34.275,-118.493,5.317,5.89,ml,0.0,142.2,0.2557,0.494,ci,ci3149646,2020-03-26T17:05:48.883Z,"1km ENE of Granada Hills, California",earthquake,,,,4.0,reviewed,ci,ci
+5,1991-06-28T14:43:54.660Z,34.27,-117.993,8.049,5.8,mw,0.0,14.3,,0.264,ci,ci2021449,2020-04-17T20:59:05.883Z,"13km NNE of Sierra Madre, CA",earthquake,,0.304,,0.0,reviewed,ci,ci
+6,1971-02-09T14:02:45.740Z,34.416,-118.37,6.0,5.8,mh,0.0,360.0,0.3136,0.005,ci,ci3360245,2020-03-26T17:20:03.816Z,"10km SSW of Agua Dulce, CA",earthquake,,,,0.0,reviewed,ci,ci
+7,1971-02-09T14:01:12.450Z,34.416,-118.37,6.0,5.8,mh,0.0,328.5,0.3136,0.324,ci,ci3360255,2020-03-26T17:20:19.311Z,"10km SSW of Agua Dulce, CA",earthquake,,,,0.0,reviewed,ci,ci
+8,1994-01-17T23:33:30.690Z,34.326,-118.698,9.083,5.58,ml,0.0,23.9,,0.317,ci,ci3141273,2020-04-17T20:59:25.909Z,"7km NNE of Simi Valley, California",earthquake,,0.84,,28.0,reviewed,ci,ci
+9,1990-02-28T23:43:36.750Z,34.144,-117.697,3.292,5.51,ml,0.0,30.9,,0.27,ci,ci1053635,2020-04-17T20:58:18.099Z,"6km NNE of Claremont, CA",earthquake,,0.155,,14.0,reviewed,ci,ci
+10,2008-07-29T18:42:15.670Z,33.9485,-117.76633329999999,15.503,5.44,mw,136.0,17.0,0.08724,0.3,ci,ci14383980,2020-04-17T20:58:31.288Z,"5km S of Chino Hills, CA",earthquake,0.19,0.52,,6.0,reviewed,ci,ci
+11,1927-08-04T12:24:00.000Z,34.0,-118.5,,5.3,uk,,,,,ushis,ushis770,2018-06-04T20:43:44.000Z,"Santa Monica Bay, California",earthquake,,,,,reviewed,ushis,jon
+12,1971-02-09T14:10:29.040Z,34.416,-118.37,6.0,5.3,mh,0.0,360.0,0.3136,0.0,ci,ci3360199,2018-06-04T20:43:45.000Z,"10km SSW of Agua Dulce, CA",earthquake,,,,0.0,reviewed,ci,ci
+13,1933-03-11T06:58:45.610Z,33.6238333,-118.00116670000001,6.0,5.29,mh,5.0,161.0,0.542,0.38,ci,ci3359813,2019-05-02T20:46:21.765Z,"7km W of Newport Beach, CA",earthquake,2.41,31.61,,1.0,reviewed,ci,ci
+14,1930-08-31T00:40:38.000Z,34.03,-118.64299999999999,15.0,5.25,ms,,,,,ushis,ushis850,2018-06-04T20:43:44.000Z,"Santa Monica Bay, California",earthquake,,,,,reviewed,ushis,gr
+15,1987-10-04T10:59:38.190Z,34.074,-118.098,7.718999999999999,5.25,ml,0.0,31.1,,0.175,ci,ci732031,2020-04-17T21:00:11.140Z,"2km WSW of Rosemead, CA",earthquake,,0.017,,7.0,reviewed,ci,ci
+16,1994-03-20T21:20:12.260Z,34.231,-118.475,12.442,5.24,ml,0.0,27.0,,0.332,ci,ci3159411,2016-11-09T22:07:22.255Z,"3km WNW of Panorama City, California",earthquake,,0.134,,40.0,reviewed,ci,ci
+17,1994-01-18T00:43:08.890Z,34.376999999999995,-118.698,10.709000000000001,5.24,ml,0.0,45.5,,0.311,ci,ci3141286,2020-04-16T18:54:30.059Z,"10km ESE of Piru, California",earthquake,,0.534,,8.0,reviewed,ci,ci
+18,1970-09-12T14:30:53.000Z,34.2548333,-117.53433329999999,10.75,5.22,ml,17.0,106.0,,0.36,ci,ci3323898,2020-04-16T21:06:10.635Z,"3km W of Lytle Creek, CA",earthquake,0.84,1.75,0.14300000000000002,6.0,reviewed,ci,ci
+19,1979-01-01T23:14:38.620Z,33.9165,-118.68716670000002,13.3,5.21,ml,93.0,54.0,,0.43,ci,ci12228815,2020-03-26T16:56:41.037Z,"13km S of Malibu Beach, CA",earthquake,0.7,0.91,0.387,8.0,reviewed,ci,ci

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b622e69e81254397a00b615390f3a381 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b622e69e81254397a00b615390f3a381" ></div>
+        
+</body>
+<script>    
+    
+            var map_b622e69e81254397a00b615390f3a381 = L.map(
+                "map_b622e69e81254397a00b615390f3a381",
+                {
+                    center: [34.052235, -118.243683],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_119ba7ded3234b67ab15e6e201fd9a94 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+            var circle_marker_480f66a256374ab5a806d7d161225de9 = L.circleMarker(
+                [34.213, -118.537],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_37ef1936ea7c45c38c2a1dc70f448142 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e17f07e455934227a123237180e6327d = $(`<div id="html_e17f07e455934227a123237180e6327d" style="width: 100.0%; height: 100.0%;">Mag. 6.7 at 1994-01-17T12:30:55.390Z</div>`)[0];
+            popup_37ef1936ea7c45c38c2a1dc70f448142.setContent(html_e17f07e455934227a123237180e6327d);
+        
+
+        circle_marker_480f66a256374ab5a806d7d161225de9.bindPopup(popup_37ef1936ea7c45c38c2a1dc70f448142)
+        ;
+
+        
+    
+    
+            var circle_marker_38c7856779444ee6b9d76172c0260dea = L.circleMarker(
+                [34.416, -118.37],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_f3fe853523754ef5b306392d74d16a84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e15070d67f6489db043dedc88c8b0b4 = $(`<div id="html_8e15070d67f6489db043dedc88c8b0b4" style="width: 100.0%; height: 100.0%;">Mag. 6.6 at 1971-02-09T14:00:41.920Z</div>`)[0];
+            popup_f3fe853523754ef5b306392d74d16a84.setContent(html_8e15070d67f6489db043dedc88c8b0b4);
+        
+
+        circle_marker_38c7856779444ee6b9d76172c0260dea.bindPopup(popup_f3fe853523754ef5b306392d74d16a84)
+        ;
+
+        
+    
+    
+            var circle_marker_8b1e922287b149b79b182827c9df96bd = L.circleMarker(
+                [33.6308333, -117.9995],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_41ee2156e79b45baa0042ff332793900 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_094e3fc8d97942f38f642a4afe8d71a3 = $(`<div id="html_094e3fc8d97942f38f642a4afe8d71a3" style="width: 100.0%; height: 100.0%;">Mag. 6.4 at 1933-03-11T01:54:10.660Z</div>`)[0];
+            popup_41ee2156e79b45baa0042ff332793900.setContent(html_094e3fc8d97942f38f642a4afe8d71a3);
+        
+
+        circle_marker_8b1e922287b149b79b182827c9df96bd.bindPopup(popup_41ee2156e79b45baa0042ff332793900)
+        ;
+
+        
+    
+    
+            var circle_marker_08a85c242d8f47c1920f1dbacc5b10ba = L.circleMarker(
+                [34.061, -118.079],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_ccfcf1db2c8241d4b313813d71be7936 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_722fad38ab62439e8b1908b31e429c90 = $(`<div id="html_722fad38ab62439e8b1908b31e429c90" style="width: 100.0%; height: 100.0%;">Mag. 5.9 at 1987-10-01T14:42:20.020Z</div>`)[0];
+            popup_ccfcf1db2c8241d4b313813d71be7936.setContent(html_722fad38ab62439e8b1908b31e429c90);
+        
+
+        circle_marker_08a85c242d8f47c1920f1dbacc5b10ba.bindPopup(popup_ccfcf1db2c8241d4b313813d71be7936)
+        ;
+
+        
+    
+    
+            var circle_marker_2f795d51d78246729b595301126f72c0 = L.circleMarker(
+                [34.275, -118.493],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_e2f746e96dc54ae394e5ff1ce13bbd7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43cf81983f44486c901ad1410e979e94 = $(`<div id="html_43cf81983f44486c901ad1410e979e94" style="width: 100.0%; height: 100.0%;">Mag. 5.89 at 1994-01-17T12:31:58.120Z</div>`)[0];
+            popup_e2f746e96dc54ae394e5ff1ce13bbd7e.setContent(html_43cf81983f44486c901ad1410e979e94);
+        
+
+        circle_marker_2f795d51d78246729b595301126f72c0.bindPopup(popup_e2f746e96dc54ae394e5ff1ce13bbd7e)
+        ;
+
+        
+    
+    
+            var circle_marker_7270358362a1471e8efd3fccc8f7cbbb = L.circleMarker(
+                [34.27, -117.993],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_f2cd358a88964af085f9f44ef3fedb9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f70653fb361b4012a5bfccf16d492e81 = $(`<div id="html_f70653fb361b4012a5bfccf16d492e81" style="width: 100.0%; height: 100.0%;">Mag. 5.8 at 1991-06-28T14:43:54.660Z</div>`)[0];
+            popup_f2cd358a88964af085f9f44ef3fedb9a.setContent(html_f70653fb361b4012a5bfccf16d492e81);
+        
+
+        circle_marker_7270358362a1471e8efd3fccc8f7cbbb.bindPopup(popup_f2cd358a88964af085f9f44ef3fedb9a)
+        ;
+
+        
+    
+    
+            var circle_marker_1d8b3cdb0ca3499a8373aeb3c03b9720 = L.circleMarker(
+                [34.416, -118.37],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_ed57c83b9ac0455da5ebfe986f4e5cc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f44181b6944d416482be01c6917c4e86 = $(`<div id="html_f44181b6944d416482be01c6917c4e86" style="width: 100.0%; height: 100.0%;">Mag. 5.8 at 1971-02-09T14:02:45.740Z</div>`)[0];
+            popup_ed57c83b9ac0455da5ebfe986f4e5cc4.setContent(html_f44181b6944d416482be01c6917c4e86);
+        
+
+        circle_marker_1d8b3cdb0ca3499a8373aeb3c03b9720.bindPopup(popup_ed57c83b9ac0455da5ebfe986f4e5cc4)
+        ;
+
+        
+    
+    
+            var circle_marker_c51ab6aa96d44c51bc08612e34a7d21e = L.circleMarker(
+                [34.416, -118.37],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_8e4884b531c241c0a17eabb857699fed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d22fd6c6202e47a083ca551be3e95139 = $(`<div id="html_d22fd6c6202e47a083ca551be3e95139" style="width: 100.0%; height: 100.0%;">Mag. 5.8 at 1971-02-09T14:01:12.450Z</div>`)[0];
+            popup_8e4884b531c241c0a17eabb857699fed.setContent(html_d22fd6c6202e47a083ca551be3e95139);
+        
+
+        circle_marker_c51ab6aa96d44c51bc08612e34a7d21e.bindPopup(popup_8e4884b531c241c0a17eabb857699fed)
+        ;
+
+        
+    
+    
+            var circle_marker_8c293cca76c34a37b9feca6cfac35f82 = L.circleMarker(
+                [34.326, -118.698],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_ce5d49154d734440858233f96f29813a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdbf4ba09207453595ecdcaf28589b10 = $(`<div id="html_fdbf4ba09207453595ecdcaf28589b10" style="width: 100.0%; height: 100.0%;">Mag. 5.58 at 1994-01-17T23:33:30.690Z</div>`)[0];
+            popup_ce5d49154d734440858233f96f29813a.setContent(html_fdbf4ba09207453595ecdcaf28589b10);
+        
+
+        circle_marker_8c293cca76c34a37b9feca6cfac35f82.bindPopup(popup_ce5d49154d734440858233f96f29813a)
+        ;
+
+        
+    
+    
+            var circle_marker_90bac733114143de9c5e3660a9c31a3b = L.circleMarker(
+                [34.144, -117.697],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_2d007cc848b54d88b0cbae0fa7cef7fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_050c2af392de4b3388c01aa3be074b96 = $(`<div id="html_050c2af392de4b3388c01aa3be074b96" style="width: 100.0%; height: 100.0%;">Mag. 5.51 at 1990-02-28T23:43:36.750Z</div>`)[0];
+            popup_2d007cc848b54d88b0cbae0fa7cef7fa.setContent(html_050c2af392de4b3388c01aa3be074b96);
+        
+
+        circle_marker_90bac733114143de9c5e3660a9c31a3b.bindPopup(popup_2d007cc848b54d88b0cbae0fa7cef7fa)
+        ;
+
+        
+    
+    
+            var circle_marker_fb70ec11ddaf4f4ca7bc4510d074542f = L.circleMarker(
+                [33.9485, -117.76633329999999],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_694e58bef9a14bf7a2246bd1f450abb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2f13398b1344a3eb9c57860c79a9986 = $(`<div id="html_f2f13398b1344a3eb9c57860c79a9986" style="width: 100.0%; height: 100.0%;">Mag. 5.44 at 2008-07-29T18:42:15.670Z</div>`)[0];
+            popup_694e58bef9a14bf7a2246bd1f450abb7.setContent(html_f2f13398b1344a3eb9c57860c79a9986);
+        
+
+        circle_marker_fb70ec11ddaf4f4ca7bc4510d074542f.bindPopup(popup_694e58bef9a14bf7a2246bd1f450abb7)
+        ;
+
+        
+    
+    
+            var circle_marker_1191b20595664dacbbde0e89b50cb4aa = L.circleMarker(
+                [34.0, -118.5],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_4ca778eed0f94210866bbff50d534840 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a411eb758bcf4f3d917b227c96a169ca = $(`<div id="html_a411eb758bcf4f3d917b227c96a169ca" style="width: 100.0%; height: 100.0%;">Mag. 5.3 at 1927-08-04T12:24:00.000Z</div>`)[0];
+            popup_4ca778eed0f94210866bbff50d534840.setContent(html_a411eb758bcf4f3d917b227c96a169ca);
+        
+
+        circle_marker_1191b20595664dacbbde0e89b50cb4aa.bindPopup(popup_4ca778eed0f94210866bbff50d534840)
+        ;
+
+        
+    
+    
+            var circle_marker_3c81837faade424fbead3cd1a4e36a55 = L.circleMarker(
+                [34.416, -118.37],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_121ff2744df248f18917e0132113e533 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_804c71d92e99475f9e319676a3e93eb0 = $(`<div id="html_804c71d92e99475f9e319676a3e93eb0" style="width: 100.0%; height: 100.0%;">Mag. 5.3 at 1971-02-09T14:10:29.040Z</div>`)[0];
+            popup_121ff2744df248f18917e0132113e533.setContent(html_804c71d92e99475f9e319676a3e93eb0);
+        
+
+        circle_marker_3c81837faade424fbead3cd1a4e36a55.bindPopup(popup_121ff2744df248f18917e0132113e533)
+        ;
+
+        
+    
+    
+            var circle_marker_382e2f2af0844fee9c1a4fa4bc7ba6d5 = L.circleMarker(
+                [33.6238333, -118.00116670000001],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_f18d528af3944a3a98779d973fd98859 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d64b214e0efe4af886160e236a909e64 = $(`<div id="html_d64b214e0efe4af886160e236a909e64" style="width: 100.0%; height: 100.0%;">Mag. 5.29 at 1933-03-11T06:58:45.610Z</div>`)[0];
+            popup_f18d528af3944a3a98779d973fd98859.setContent(html_d64b214e0efe4af886160e236a909e64);
+        
+
+        circle_marker_382e2f2af0844fee9c1a4fa4bc7ba6d5.bindPopup(popup_f18d528af3944a3a98779d973fd98859)
+        ;
+
+        
+    
+    
+            var circle_marker_16e707a8aedf4928a459380300d76ff7 = L.circleMarker(
+                [34.03, -118.64299999999999],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_0f811d3ae4be4e789e95605ad572d373 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcb4fb9d81634f96a1fae95cd9eedffe = $(`<div id="html_bcb4fb9d81634f96a1fae95cd9eedffe" style="width: 100.0%; height: 100.0%;">Mag. 5.25 at 1930-08-31T00:40:38.000Z</div>`)[0];
+            popup_0f811d3ae4be4e789e95605ad572d373.setContent(html_bcb4fb9d81634f96a1fae95cd9eedffe);
+        
+
+        circle_marker_16e707a8aedf4928a459380300d76ff7.bindPopup(popup_0f811d3ae4be4e789e95605ad572d373)
+        ;
+
+        
+    
+    
+            var circle_marker_1dc9d7ec22384308b5241966a42cadb9 = L.circleMarker(
+                [34.074, -118.098],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_067567e615ce450cb71e50de19b060dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46470dcfda9a4a06b6ed94d9f9db9a21 = $(`<div id="html_46470dcfda9a4a06b6ed94d9f9db9a21" style="width: 100.0%; height: 100.0%;">Mag. 5.25 at 1987-10-04T10:59:38.190Z</div>`)[0];
+            popup_067567e615ce450cb71e50de19b060dd.setContent(html_46470dcfda9a4a06b6ed94d9f9db9a21);
+        
+
+        circle_marker_1dc9d7ec22384308b5241966a42cadb9.bindPopup(popup_067567e615ce450cb71e50de19b060dd)
+        ;
+
+        
+    
+    
+            var circle_marker_6a91fc33a90f48608f385a949ec6306b = L.circleMarker(
+                [34.231, -118.475],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_354d56ddc9b442b381da423319fed7b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c145157cb4f43f19a12a134d609d87b = $(`<div id="html_3c145157cb4f43f19a12a134d609d87b" style="width: 100.0%; height: 100.0%;">Mag. 5.24 at 1994-03-20T21:20:12.260Z</div>`)[0];
+            popup_354d56ddc9b442b381da423319fed7b3.setContent(html_3c145157cb4f43f19a12a134d609d87b);
+        
+
+        circle_marker_6a91fc33a90f48608f385a949ec6306b.bindPopup(popup_354d56ddc9b442b381da423319fed7b3)
+        ;
+
+        
+    
+    
+            var circle_marker_dd835fb8b71244eb8fd873ebcb8f4b4e = L.circleMarker(
+                [34.376999999999995, -118.698],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_fe9338e365f245369105af979b301cad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da06b51523004c3fac36f6d64f693cdb = $(`<div id="html_da06b51523004c3fac36f6d64f693cdb" style="width: 100.0%; height: 100.0%;">Mag. 5.24 at 1994-01-18T00:43:08.890Z</div>`)[0];
+            popup_fe9338e365f245369105af979b301cad.setContent(html_da06b51523004c3fac36f6d64f693cdb);
+        
+
+        circle_marker_dd835fb8b71244eb8fd873ebcb8f4b4e.bindPopup(popup_fe9338e365f245369105af979b301cad)
+        ;
+
+        
+    
+    
+            var circle_marker_541b322f665945c493a1109b7713db5e = L.circleMarker(
+                [34.2548333, -117.53433329999999],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_27ad76b197d14df5a5cd29b4ad82ed8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03eb5ffae16e49048584fe6d9139b233 = $(`<div id="html_03eb5ffae16e49048584fe6d9139b233" style="width: 100.0%; height: 100.0%;">Mag. 5.22 at 1970-09-12T14:30:53.000Z</div>`)[0];
+            popup_27ad76b197d14df5a5cd29b4ad82ed8e.setContent(html_03eb5ffae16e49048584fe6d9139b233);
+        
+
+        circle_marker_541b322f665945c493a1109b7713db5e.bindPopup(popup_27ad76b197d14df5a5cd29b4ad82ed8e)
+        ;
+
+        
+    
+    
+            var circle_marker_058a32e3085e432c932e60974f721500 = L.circleMarker(
+                [33.9165, -118.68716670000002],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_b622e69e81254397a00b615390f3a381);
+        
+    
+        var popup_c37e53ade4e444c88fd0af6396cb5a76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2aa48c305fb4fdd843ab7a93ca0e0aa = $(`<div id="html_b2aa48c305fb4fdd843ab7a93ca0e0aa" style="width: 100.0%; height: 100.0%;">Mag. 5.21 at 1979-01-01T23:14:38.620Z</div>`)[0];
+            popup_c37e53ade4e444c88fd0af6396cb5a76.setContent(html_b2aa48c305fb4fdd843ab7a93ca0e0aa);
+        
+
+        circle_marker_058a32e3085e432c932e60974f721500.bindPopup(popup_c37e53ade4e444c88fd0af6396cb5a76)
+        ;
+
+        
+    
+</script>
