@@ -12,8 +12,8 @@ An EXAMPLE for a HCI 584 app that shows earthquake activity around a given locat
     - put results on map in some form  
 
 Project structure:
-- main.py - python file to be run/debugged
-- docs - documentation 
+- main.py - python file to be run/debug
+- Documentation - folder of offcial documentation (later) 
 - tmp - holds temporary files
 - templates - flask template files
 - static - flask asset files
