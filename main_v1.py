@@ -23,7 +23,7 @@ qparam = {} # make a dict with parameter name (key) and value (string)
 # search parameters: see http://earthquake.usgs.gov/fdsnws/event/1/ -> Query method Parameters
 qparam["format"]    = "csv" # data format will be a simple csv file
 qparam["starttime"] ="1900-01-01" 
-qparam["endtime"] = "2020-01-01"
+qparam["endtime"] = "2021-05-01" # should be current day
 #qparam["minmagnitude"] = "7"  # limit to high magnitudes -> fewer points
 qparam["limit"] = str(max_quakes)   
 qparam["orderby"]  = "magnitude" 
