@@ -27,8 +27,8 @@ This is an example of a student project for HCI 584. It will be used to illustra
 - Generate unique URL from current location + parameters
 
 ### What data would be used (input), how would you get it and how is it processed/analyzed?
-- Data will come online from the USGS Earth quake Catalog API https://earthquake.usgs.gov/fdsnws/event/1/ witch which I can request a list of quakes sorted by magnitude and around a certain location. 
-- Download data for this app (up to 100 quakes) is tiny and extremely fast. 
+- Data will come online from the USGS Earth quake Catalog API https://earthquake.usgs.gov/fdsnws/event/1/ with which I can request a list of quakes sorted by magnitude and around a certain location. 
+- Download data for this app (up to 100 quakes) is tiny and should happen extremely fast. 
 - Minimal processing should be needed as the filtering is done mostly server side. 
 - Some work is needed to arrive at good visualization parameters to map the current set of quakes effectively for any mix of data without map clutter.
 - There's next to no analysis other than summary stats.
