@@ -86,6 +86,12 @@ Bob clicks on the URL button, then opens a email to his friend and pastes the UR
 - each quake (row) will have a date, lat, long and magnitude (maybe also depth?)
 - quakes in the csv file will already be sorted by magnitude (part of the query)
 - each quake will be plotted on a basemap using folium, using size, symbol and color
+- at a minimum, hardcoded (simulated) user input must result in a static web map (see main_test_for_v1.py)
+
+- Version 2 will be implemented as a web app using Flask
+- (Somewhat) unknowns:
+    - what will the GUI workflow be?
+    - where/how will the statistics plot be shown? (separate page or side-by-side with the web map?) 
 ------------------------------------------------------------
 
 
