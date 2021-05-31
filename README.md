@@ -18,7 +18,5 @@ Project structure:
 - templates - flask template files
 - static - flask asset files
 
-Online docs: https://github.com/ChHarding/lecture2/blob/master/hello.py 
-- 
 
 
